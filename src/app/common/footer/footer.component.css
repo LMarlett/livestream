@@ -1,0 +1,86 @@
+/* General */
+footer {
+	padding: 20px;
+	position: absolute;
+    width: 100%;
+    bottom: 0;
+    font-weight: normal;
+    /* Height needs to match padding-bottom in app.component.css 
+    in order for the footer to stay at the bottom of the page */
+    height: 2rem;
+}
+
+/* CSforALL Logo in Footer */
+.footer-logo {
+    width: 180px;
+    height: auto;
+}
+
+.footer-logo img {
+	width: 200px;
+}
+
+/* Footer Nav */
+.footer-logo, .footer-nav {
+	display: inline;
+}
+
+.footer-nav {
+    text-align: center;
+}
+
+a {
+    color: #1c58b5;
+}
+
+.footer-nav {
+	color: #777;
+	font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    color: #30bbf8;
+    text-decoration: none;
+}
+
+.footer-nav div {
+    float: left;
+    padding: 20px;
+}
+
+@media (max-width: 849px) {
+    .footer-nav div {
+        float: none;
+        padding: 5px;
+    }
+}
+
+/* Socials */
+.footer-icon {
+	font-size: 22px;
+	color: #777;
+	padding: 0 15px;
+}
+
+.footer-icon:hover {
+    color: #383838;
+}
+
+/* Circuit image from the CSforALL website */
+.circuit-small {
+    float: right;
+}
+
+@media (max-width: 849px) {
+    .circuit-small {
+        display: none;
+    }
+}
+a{
+    color: #1c58b5;
+}
+a:hover {
+    color: #30bbf8 !important;
+}

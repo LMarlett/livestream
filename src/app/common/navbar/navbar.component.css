@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,800&display=swap');
+/* new navbar css */
+.right{
+ float: right;
+
+}
+ 
+.logo-nav{
+height: 90px;
+width:auto;
+}
+
+.navbar{
+font-family: 'Roboto', sans-serif !important;
+font-size: 16px;
+background-color: black !important;
+
+}
+
+ 
+.nav-link {
+color: #1c58b5 !important ;
+font-family: 'Raleway', sans-serif;
+font-weight: 700;
+
+}
+
+.dropdown-menu {
+  border: none;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding:10px
+}
+
+.dropdown-item{
+  padding:10px;
+  text-align: center;
+}
+
+.center{
+text-align: center;
+margin: auto;
+}
+
+/* Responsive Navbar for small screens */
+ @media screen and (max-width: 1044px) {
+.dropdown-menu-right{
+  float: left !important;
+}
+}
+
+
+.center {
+    /* width:300px; */
+  margin: auto;
+  
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.center-links {
+  display:inline-block;
+}
+ 
+
+a{
+  color: #1c58b5;
+}
+a:hover {
+  color: #30bbf8 !important;
+}

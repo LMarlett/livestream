@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "prod": "summit-csforall",
+    "stage": "summit-csforall"
+  },
+  "targets": {
+    "summit-csforall": {
+      "hosting": {
+        "stage": [
+          "summit-livestream-stage"
+        ],
+        "prod": [
+          "summit-livestream-production"
+        ]
+      }
+    }
+  }
+}

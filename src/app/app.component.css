@@ -1,0 +1,10 @@
+/* All of this is here to take care of keeping the footer on the bottom of the page */
+#page-container {
+    position: relative;
+    min-height: 80vh;
+    min-height: 80%;
+}
+
+#content-wrap {
+    padding-bottom: 2rem;    /* Footer height */
+}
